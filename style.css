@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url("images.jpg");
+    background-image: url("background\ image\ 2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -39,9 +39,9 @@ body{
     top: 130px;
     font-size: 20px;
     text-align: center;
-    color: blue;
+    color: rgb(131, 236, 10);
     left: 15px;
-    border: 1px solid blue;
+    border: 1px solid white;
 }
 #decrease{
     position: absolute;
@@ -52,9 +52,9 @@ body{
     top: 220px;
     font-size: 20px;
     text-align: center;
-    color: green;
+    color:rgb(131, 236, 10);
     left: 15px;
-    border: 1px solid green;
+    border: 1px solid rgb(209, 212, 209);
 }
 #reset{
     position: absolute;
@@ -65,31 +65,31 @@ body{
     top: 310px;
     font-size: 20px;
     text-align: center;
-    color: red;
+    color: rgb(131, 236, 10);
     left: 15px;
-    border: 1px solid red;
+    border: 1px solid whitesmoke;
 }
 p{
     position: relative;
     top: -15px;
 }
 #increase:hover{
-    box-shadow: 0 0 20px blue;
+    box-shadow: 0 0 20px rgb(204, 240, 4);;
 }
 #decrease:hover{
-    box-shadow: 0 0 20px green;
+    box-shadow: 0 0 20px rgb(204, 240, 4);;
 }
 #reset:hover{
-    box-shadow: 0 0 20px red;
+    box-shadow: 0 0 20px rgb(204, 240, 4);;
 }
 .counter{
     position: relative;
-    color: red;
+    color:rgb(131, 236, 10);
     font-size: 40px;
     text-align: center;
     position: relative;
     top: 40px;
-    text-shadow: 0 0 10px white;
+    text-shadow: 0 0 10px rgb(204, 240, 4);
 }
 @media screen and (max-width:412px) {
     .container {
