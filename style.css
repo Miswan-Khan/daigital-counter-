@@ -1,0 +1,301 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("images.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    position: relative;
+    height: 400px;
+    width: 380px;
+    background-color: transparent;
+    box-shadow: 0 0 10px black;
+    top: 50px;
+    left: 36%;
+    border-radius: 20px;
+}
+#counter{
+    position: absolute;
+    height: 80px;
+    width: 350px;
+    background-color: transparent;
+    border-radius: 30px;
+    top: 20px;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    left: 15px;
+    border: 1px solid white;
+}
+#increase{
+    position: absolute;
+    height: 40px;
+    width: 350px;
+    background-color: transparent;
+    border-radius: 50px;
+    top: 130px;
+    font-size: 20px;
+    text-align: center;
+    color: blue;
+    left: 15px;
+    border: 1px solid blue;
+}
+#decrease{
+    position: absolute;
+    height: 40px;
+    width: 350px;
+    background-color: transparent;
+    border-radius: 50px;
+    top: 220px;
+    font-size: 20px;
+    text-align: center;
+    color: green;
+    left: 15px;
+    border: 1px solid green;
+}
+#reset{
+    position: absolute;
+    height: 40px;
+    width: 350px;
+    background-color: transparent;
+    border-radius: 50px;
+    top: 310px;
+    font-size: 20px;
+    text-align: center;
+    color: red;
+    left: 15px;
+    border: 1px solid red;
+}
+p{
+    position: relative;
+    top: -15px;
+}
+#increase:hover{
+    box-shadow: 0 0 20px blue;
+}
+#decrease:hover{
+    box-shadow: 0 0 20px green;
+}
+#reset:hover{
+    box-shadow: 0 0 20px red;
+}
+.counter{
+    position: relative;
+    color: red;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    text-shadow: 0 0 10px white;
+}
+@media screen and (max-width:412px) {
+    .container {
+        width: 90%;
+        position: relative;      
+        height: 400px;
+    }
+    .counter{
+        position: relative;
+        color: red;
+        font-size: 40px;
+        text-align: center;
+        position: relative;
+        top: 40px;
+        text-shadow: 0 0 10px white;
+    }
+}
+
+@media screen and (max-width:1360px) {
+    .container{
+        position: relative;
+        height: 400px;
+        width: 380px;
+        background-color: transparent;
+        box-shadow: 0 0 10px black;
+        top: 50px;
+        left: 36%;
+        border-radius: 20px;
+    }
+    #counter{
+        position: absolute;
+        height: 80px;
+        width: 350px;
+        background-color: transparent;
+        border-radius: 30px;
+        top: 20px;
+        font-size: 60px;
+        text-align: center;
+        color: white;
+        left: 15px;
+        border: 1px solid white;
+    }
+    #increase{
+        position: absolute;
+        height: 40px;
+        width: 350px;
+        background-color: transparent;
+        border-radius: 50px;
+        top: 130px;
+        font-size: 20px;
+        text-align: center;
+        color: blue;
+        left: 15px;
+        border: 1px solid blue;
+    }
+    #decrease{
+        position: absolute;
+        height: 40px;
+        width: 350px;
+        background-color: transparent;
+        border-radius: 50px;
+        top: 220px;
+        font-size: 20px;
+        text-align: center;
+        color: green;
+        left: 15px;
+        border: 1px solid green;
+    }
+    #reset{
+        position: absolute;
+        height: 40px;
+        width: 350px;
+        background-color: transparent;
+        border-radius: 50px;
+        top: 310px;
+        font-size: 20px;
+        text-align: center;
+        color: red;
+        left: 15px;
+        border: 1px solid red;
+    }
+    p{
+        position: relative;
+        top: -15px;
+    }
+    #increase:hover{
+        box-shadow: 0 0 20px blue;
+    }
+    #decrease:hover{
+        box-shadow: 0 0 20px green;
+    }
+    #reset:hover{
+        box-shadow: 0 0 20px red;
+    }
+    .counter{
+        position: relative;
+        color: red;
+        font-size: 40px;
+        text-align: center;
+        position: relative;
+        top: 40px;
+        text-shadow: 0 0 10px white;
+    }
+}
+
+@media screen and (max-width:414px) {
+    .container {
+        width: 90%;
+        position: relative;
+        left: 20px;
+        height: 400px;
+    }
+    .counter{
+        position: relative;
+        color: red;
+        font-size: 40px;
+        text-align: center;
+        position: relative;
+        top: 40px;
+        text-shadow: 0 0 10px white;
+    }
+}
+
+@media screen and (max-width:428px) {
+    .container {
+        width: 90%;
+        position: relative;
+        left: 23px;
+        height: 400px;
+    }
+    .counter{
+        position: relative;
+        color: red;
+        font-size: 40px;
+        text-align: center;
+        position: relative;
+        top: 40px;
+        text-shadow: 0 0 10px white;
+    }
+}
+@media screen and (max-width:355px) {
+       .container {
+        width: 90%;
+        position: relative;
+        left: 18px;
+        height: 400px;
+    }
+    .counter{
+        position: relative;
+        color: red;
+        font-size: 30px;
+        text-align: center;
+        position: relative;
+        top: 40px;
+        text-shadow: 0 0 10px white;
+    }
+    #counter{
+        position: absolute;
+        height: 80px;
+        width: 290px;
+        background-color: transparent;
+        border-radius: 30px;
+        top: 20px;
+        font-size: 60px;
+        text-align: center;
+        color: white;
+        left: 15px;
+        border: 1px solid white;
+    }
+    #increase{
+        position: absolute;
+        height: 40px;
+        width: 290px;
+        background-color: transparent;
+        border-radius: 50px;
+        top: 130px;
+        font-size: 20px;
+        text-align: center;
+        color: blue;
+        left: 15px;
+        border: 1px solid blue;
+    }
+    #decrease{
+        position: absolute;
+        height: 40px;
+        width: 290px;
+        background-color: transparent;
+        border-radius: 50px;
+        top: 220px;
+        font-size: 20px;
+        text-align: center;
+        color: green;
+        left: 15px;
+        border: 1px solid green;
+    }
+    #reset{
+        position: absolute;
+        height: 40px;
+        width: 290px;
+        background-color: transparent;
+        border-radius: 50px;
+        top: 310px;
+        font-size: 20px;
+        text-align: center;
+        color: red;
+        left: 15px;
+        border: 1px solid red;
+    } 
+}
